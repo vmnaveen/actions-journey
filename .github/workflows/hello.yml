@@ -1,0 +1,11 @@
+name: First workflow
+
+on:
+  push:
+
+jobs:
+  first_workflow:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Print done message
+       run: echo "Workflow execution completed successfully."
